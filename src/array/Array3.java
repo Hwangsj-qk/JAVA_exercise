@@ -6,7 +6,7 @@ public class Array3 {
         scores = new int [] {100,200,300,400,500};      // 한줄에 배열값 모두 입력 -> 중괄호 사용 (배열 초기화 5개 길이)
         // 배열에서는 new를 사용하여 초기화한다는 것 잊지 말기
 
-        int [] scores2 = new int[] {13,26,55,77,80};    // 선언과 배열값 입력을 한번에 할 수 있음
+        int [] scores2 = {13,26,55,77,80};    // 선언과 배열값 입력을 한번에 할 수 있음 => 선언과 함께 초기화를 할 경우 new int[] 생략
 
         for (int i = 0; i < scores.length; i++) {       // 배열의 길이만큼 반복
             System.out.println(i + 1 + "번의 점수: " + scores[i]);
