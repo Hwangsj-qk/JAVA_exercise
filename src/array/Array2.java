@@ -10,7 +10,7 @@ public class Array2 {
         int[] scores;      // int 타입의 배열 변수를 선언
         scores = new int[6];    // 배열 생성: 6개 만큼의 길이 배열
 
-        // 배열의 값을 초기화
+        // 배열의 값을 초기화(값 입력)
         scores[0] = 100;        // 0번지부터 시작
         scores[1] = 90;
         scores[2] = 80;
