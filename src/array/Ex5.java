@@ -15,9 +15,9 @@ public class Ex5 {
         // 2. 점수 입력 (향상된 for문 활용)
         for (int[] stuents : scores) {
             System.out.println("학생의 성적을 입력하세요");
-            for (int i : stuents) {
-                System.out.print("점수: ");
-                stuents[i] = scanner.nextInt();
+            for (int stuent : stuents) {
+                
+            }
 
             }
         }
