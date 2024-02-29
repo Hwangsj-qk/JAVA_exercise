@@ -13,13 +13,12 @@ public class Ex5 {
         // 3명의 학생 수(행), 3개의 과목(열) -> 3행 3열의 다차원 배열
 
         // 2. 점수 입력 (향상된 for문 활용)
-        for (int[] stuents : scores) {
+        for (int[] students : scores) {
             System.out.println("학생의 성적을 입력하세요");
-            for (int stuent : stuents) {
-                
+            for (int i = 0; i < students.length; i++) {
+                students[i] = scanner.nextInt();
             }
 
-            }
         }
 
         // 3. 총점과 평균 구하기
