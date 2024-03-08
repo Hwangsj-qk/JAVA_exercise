@@ -18,11 +18,12 @@ public class Ex6 {
         num2 = 1;
 
         // 첫번째와 두번째 출력
-        System.out.print("피보나치 수열: " +num1 + num2);
+        System.out.print("피보나치 수열: " +num1 + " " + num2);     // 0, 1
 
-        for (int i = 3; i <=n ; i++) {
+        for (int i = 3; i <=n ; i++) {      // 첫번째, 두번재 수열을 이미 출력
             int next = num1 + num2;
-            System.out.println(" " + next);
+            System.out.print(" " + next);
+            num1 = num2;
             num2 = next;
         }
     }
