@@ -11,7 +11,8 @@ public class Null2 {
         System.out.println(dataWraaper.count);
         // int 타입의 경우 초기값: 0
         System.out.println(dataWraaper.data);
-        // 초기화 X ->초기값 입력(참조타입의 초기값: null) -> reference.Data@4e50df2e
+        // 초기화 X ->초기값 입력(참조타입의 초기값: null)
+        //  dataWrapper.data = new Data()라고 선언 -> reference.Data@4e50df2e(객체의 참조값)
         // dataWraaper.data = new Data() -> 데이터 타입의 새로운 객체만 생성.
         // 참조 타입이므로 이 객체 주소만 출력
 
