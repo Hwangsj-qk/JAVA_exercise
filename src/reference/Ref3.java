@@ -12,7 +12,7 @@ public class Ref3 {
         int sum = a + b;
         // 기본 타입은 연산이 가능
 
-//        int dataSum = data1 + data2;
+        // int dataSum = data1 + data2;
         // 참조타입은 기본적으로 연산이 불가
         int dataSum = data1.value1 + data1.value2;
         // 참조 타입의 '기본 타입 필드'에 접근하면 연산 가능
