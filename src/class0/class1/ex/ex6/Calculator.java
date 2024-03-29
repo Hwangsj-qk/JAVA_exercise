@@ -35,9 +35,9 @@ public class Calculator {
     void inputNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("첫번째 숫자를 입력하세요: ");
-        int num1 = scanner.nextInt();
+        num1 = scanner.nextInt();
         System.out.print("두번째 숫자를 입력하세요: ");
-        int num2 = scanner.nextInt();
+        num2 = scanner.nextInt();
 
     }
 
@@ -45,9 +45,30 @@ public class Calculator {
     char inputOperator() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("원하는 연산자를 입력해주세요: ");
-        char operator = scanner.next().charAt(0);
-        return operator;
+        return scanner.next().charAt(0);
     }
 
-    //
+    // 계산하는 메서드
+    void printCalculateNumber (char op) {
+        switch (op) {
+            case '+' :
+                System.out.println("결과: " + add());
+                break;
+
+            case '-' :
+                System.out.println("결과: " + subtract());
+                break;
+
+            case '*' :
+                System.out.println("결과: " + multiply());
+                break;
+
+            case '/' :
+                System.out.println("결과: " + divide());
+                break;
+
+            default:
+                System.out.println("알맞지 않은 연산자입니다. ");
+        }
+    }
 }
